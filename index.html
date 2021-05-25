@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Damion&display=swap" rel="stylesheet">
+    <title>It's Paarth</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" type="image/x-icon" href="programmer.svg" />
+
+</head>
+
+<body>
+
+    <div id="particles-js"></div>
+    <div class="container" id="home">
+        <nav class="navbar">
+            <div class="toggle">
+                <i class="fa fa-bars me" aria-hidden="true" id="togg"></i>
+            </div>
+            <ul class="navbar-nav itms">
+                <li class="nav-item" data-aos="fade-right" data-aos-delay="50">
+                    <a href="#home" class="nav-link">
+                        <i class="fas fa-home"></i>
+                        <span class="link-text"></span>
+                    </a>
+                </li>
+
+                <li class="nav-item" data-aos="fade-right" data-aos-delay="400">
+                    <a href="#about" class="nav-link">
+                        <i class="far fa-address-card"></i>
+                        <span class="link-text"></span>
+                    </a>
+                </li>
+
+                <li class="nav-item" data-aos="fade-left" data-aos-delay="600">
+                    <a href="#portfolio" class="nav-link">
+                        <i class="fas fa-project-diagram"></i>
+                        <span class="link-text"></span>
+                    </a>
+                </li>
+
+                <li class="nav-item" data-aos="fade-left" data-aos-delay="900" data-aos-offset="100">
+                    <a href="#contact" class="nav-link">
+                        <i class="fas fa-at"></i>
+                        <span class="link-text"></span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="scroll-btn">
+            <a href="#home"><i class="fas fa-arrow-circle-up"></i></a>
+        </div>
+        <div class="container1">
+            <div class="home-text">
+                <p data-aos="fade-up" data-aos-delay="50">Hello World, I'm</p>
+                <h1 data-aos="fade-up" data-aos-delay="300">Paarth</h1>
+                <h2 data-aos="fade-up" data-aos-delay="700" data-aos-offset="50">I am a <span class="type"></span></h2>
+            </div>
+        </div>
+
+        <div class="container2">
+            <div class="inside">
+                <a data-aos="fade-right" data-aos-delay="400" data-aos-offset="100" href="cv.pdf" class="btn"
+                    target="_blank">Download CV</a>
+                <a data-aos="fade-left" data-aos-delay="400" data-aos-offset="100" href="#contact"
+                    class="btn link-item">Contact Me</a>
+            </div>
+        </div>
+    </div>
+
+
+
+    <section class="section about" id="about">
+
+        <div class="section-title">
+            <h2 data-aos="fade-up" data-aos-delay="50">About Me</h2>
+        </div>
+        <div class="about-center container3">
+            <div class="left row">
+                <div class="home-img">
+                    <div class="img-box" data-aos="fade-right" data-aos-delay="100" data-aos-offset="100">
+                        <img src="mypic.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="about-text right row" data-aos="fade-left" data-aos-delay="200" data-aos-offset="50">
+                <p>Hey there! How's it going everybody? Myself Paarth, I am currently a 1st UG student
+                    at VIT Vellore. I completed my +2 from Delhi Public School, Agra with 93.2% in my
+                    CBSE Board Exams and 98.45 percentile in JEE Mains. I am always keen to learn new
+                    stuffs and you can pinge me anytime for cool ideas. Currently i am learning Web
+                    Development, Machine Learning and C++. My side activities include listening to
+                    music. I am a space enthusiast and is always ready to explore that field. I read the
+                    book "Brief History Of time" by Stephen Hawking and it kinda fascinates me to dive
+                    deep into that topic.</p>
+
+                <h3>Skills</h3>
+                <div class="skills">
+                    <div class="skill-item">HTML - 5</div>
+                    <div class="skill-item">CSS - 3</div>
+                    <div class="skill-item">JAVASCRIPT</div>
+                    <div class="skill-item">BOOTSTRAP - 4</div>
+                    <div class="skill-item">C++</div>
+                    <div class="skill-item">C</div>
+                    <div class="skill-item">DIALOGFLOW</div>
+                    <div class="skill-item">PYTHON</div>
+                    <div class="skill-item">FIGMA</div>
+                </div>
+
+                <div class="about-tabs">
+                    <button type="button" class="tab-item active" data-target="#education">Education</button>
+                    <button type="button" class="tab-item" data-target="#experience">Experience</button>
+                </div>
+
+                <div class="tab-content active" id="education">
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <span class="date">2019 - 2020</span>
+                            <h4>Delhi Public School - <span>AGRA</span></h4>
+                            <p>Completed my +2 from Delhi Public School with the overall percentage of
+                                93.2. It was a great experience i had in school. I spent 11 years there
+                                and made many new friends</p>
+                        </div>
+                        <div class="timeline-item">
+                            <span class="date">2020 - 2021</span>
+                            <h4>JEE Mains And Many More Exams - <span>Self Study</span></h4>
+                            <p>I gave JEE mains and many more competitive exams which include BITSAT,
+                                VITEEE, WBJEE etc.It was great experience.</p>
+                        </div>
+                        <div class="timeline-item">
+                            <span class="date">2020 - 2021</span>
+                            <h4>B.tech Computer science - <span>VIT Vellore</span></h4>
+                            <p>Finally I got into one of the best Engineering College in India. Waiting
+                                to meet people in-person on Campus.</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-content" id="experience">
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <span class="date">2020 - 2021</span>
+                            <h4>Python & C++ - <span>My first code.</span></h4>
+                            <p>Started with my first code "HELLO WORLD" on python and C++. It was
+                                interesting to know the other and deep side of computer and how i can
+                                manipulate things by programming</p>
+                        </div>
+                        <div class="timeline-item">
+                            <span class="date">2020 - 2021</span>
+                            <h4>Web Development - <span>Front - End</span></h4>
+                            <p>Started with making my first website which has no context but it was a
+                                great experience learning how websites work and how to make our own
+                                websites. After that i learnt CSS, JAVASCRIPT and BOOTSTRAP to
+                                manupulate and style the websites.</p>
+                        </div>
+                        <div class="timeline-item">
+                            <span class="date">2020 - 2021</span>
+                            <h4>Designing - <span>My First App</span></h4>
+                            <p>It was a great experience to learn designing. I created my first App UI
+                                with my team which helped me learn and improve my skills. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- projects and skills -->
+    <section class="portfolio-section active" id="portfolio">
+        <div class="container5">
+            <div class="row">
+                <div class="section-title">
+                    <h2 data-aos="fade-up" data-aos-delay="100">Recent Work</h2>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="portfolio-item" data-aos="fade-right" data-aos-delay="50" data-aos-offset="100">
+                    <div class="portfolio-item-thumbnail">
+                        <img src="project1.png" alt="">
+                    </div>
+                    <h3 class="portfolio-item-title">Portfolio Website Using Javascript Libraries</h3>
+                    <div class="inside-btn">
+                        <button class="btn view-project-btn" type="button">View Project</button>
+                    </div>
+                    <div class="portfolio-item-details">
+                        <div class="description">
+                            <p>This is one of the best websites created by me as it includes the javascript libraries
+                                like particle.js, typed.js and many latest libraries like gsap and AOS. This website
+                                also has a chatting bot which chats with the user and tells him/her about me. This
+                                website is made in pure html, css and javascript. This website shows my overall
+                                performance both in academics and in skills. </p>
+                        </div>
+                        <div class="general-info">
+                            <ul>
+                                <li>Created - <span>19 May 2021</span>
+                                </li>
+                                <li>Technology Used - <span>HTML, CSS, Javascript, Uneeq-JS, Dialogflow,
+                                        Typed-JS, Particle-JS</span> </li>
+                                <li>Role - <span>Frontend</span></li>
+                                <li>View Online - <span><a href="#" target="_blank">www.domain.com</a></span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-aos="fade-up" data-aos-delay="50" data-aos-offset="100">
+                    <div class="portfolio-item-thumbnail">
+                        <img src="project2.png" alt="">
+                    </div>
+                    <h3 class="portfolio-item-title">Weather Display Website using Open-Weather Api</h3>
+                    <div class="inside-btn">
+                        <button class="btn view-project-btn" type="button">View Project</button>
+                    </div>
+                    <div class="portfolio-item-details">
+                        <div class="description">
+                            <p>Predict the weather with most accurate climate viewer.
+                                This website displays the weather of any city, state accurately. This
+                                website uses an open weather api which helps in fetching data directly from
+                                the main website. The code for this website is quite simple which includes
+                                HTML, CSS, and basics of javascript. Thus helps user to understand how this
+                                works.
+                                User can also have a look at the code by clicking the github link just
+                                below.
+
+                            </p>
+                        </div>
+                        <div class="general-info">
+                            <ul>
+                                <li>Created - <span>4 May 2021</span>
+                                </li>
+                                <li>Technology Used - <span>HTML, CSS, Javascript</span> </li>
+                                <li>Role - <span>Frontend</span></li>
+                                <li>View Online - <span><a href="#" target="_blank">www.domain.com</a></span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-aos="fade-left" data-aos-delay="50" data-aos-offset="100">
+                    <div class="portfolio-item-thumbnail">
+                        <img src="project3.png" alt="">
+                    </div>
+                    <h3 class="portfolio-item-title">TODO List Website - Vanilla Javascript</h3>
+                    <div class="inside-btn">
+                        <button class="btn view-project-btn" type="button">View Project</button>
+                    </div>
+                    <div class="portfolio-item-details">
+                        <div class="description">
+                            <p>Most of the people forgets the work and deadlines of their most important
+                                work.
+                                I brought a simple solution to this problem.
+                                Here is the TODO - List website which helps the user keeping the track of
+                                his/her progress.
+                                User can save the data in the todo list and can remind himself the most
+                                important stuff he/she has to do.
+                                This application is quite simple and is user friendly. Try it ones and you
+                                will love it.
+                            </p>
+                        </div>
+                        <div class="general-info">
+                            <ul>
+                                <li>Created - <span>20 April 2021</span>
+                                </li>
+                                <li>Technology Used - <span>HTML, CSS, Javascript</span> </li>
+                                <li>Role - <span>Frontend</span></li>
+                                <li>View Online - <span><a href="#" target="_blank">www.domain.com</a></span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-aos="fade-right" data-aos-delay="50" data-aos-offset="100">
+                    <div class="portfolio-item-thumbnail">
+                        <img src="project4.png" alt="">
+                    </div>
+                    <h3 class="portfolio-item-title">Covid - 19 Updates using Fetch Api</h3>
+                    <div class="inside-btn">
+                        <button class="btn view-project-btn" type="button">View Project</button>
+                    </div>
+                    <div class="portfolio-item-details">
+                        <div class="description">
+                            <p>Covid - 19 is the worst pandemic that has ever occured. This pandemic has
+                                taken the lives of many people and its not stopping till here. We can't
+                                really do anything for this but the thing which can help you and your family
+                                to be safe is to keep the track of total number of deaths, recoveries and
+                                active cases in every state.
+
+                                So here we come to provide you the solution of this problem. We built a
+                                Covid tracker app which tells all this information to you with the accurate
+                                data directly from the govt. data using fetch api.
+                            </p>
+                        </div>
+                        <div class="general-info">
+                            <ul>
+                                <li>Created - <span>10 May 2021</span>
+                                </li>
+                                <li>Technology Used - <span>HTML, CSS, Bootstrap</span> </li>
+                                <li>Role - <span>Frontend</span></li>
+                                <li>View Online - <span><a href="#" target="_blank">www.domain.com</a></span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-aos="fade-up" data-aos-delay="50" data-aos-offset="100">
+                    <div class="portfolio-item-thumbnail">
+                        <img src="project5.png" alt="">
+                    </div>
+                    <h3 class="portfolio-item-title">First Blog Website using Bootstrap</h3>
+                    <div class="inside-btn">
+                        <button class="btn view-project-btn" type="button">View Project</button>
+                    </div>
+                    <div class="portfolio-item-details">
+                        <div class="description">
+                            <p>I dont think there's anyone who is not a car fan. We all love cars . So here
+                                comes my blogging website MARTIN'S which displays you the latest cars in
+                                market.
+                                Martins comes with all the latest cars like the latest models of Ferrari,
+                                Lamborghini, Aston Martin.
+                                You will be delighted to see the world of cars entering our website.
+                            </p>
+                        </div>
+                        <div class="general-info">
+                            <ul>
+                                <li>Created - <span>15 April 2021</span>
+                                </li>
+                                <li>Technology Used - <span>HTML, CSS, Bootstrap</span> </li>
+                                <li>Role - <span>Frontend</span></li>
+                                <li>View Online - <span><a href="#" target="_blank">www.domain.com</a></span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-aos="fade-left" data-aos-delay="50" data-aos-offset="100">
+                    <div class="portfolio-item-thumbnail">
+                        <img src="project6.png" alt="">
+                    </div>
+                    <h3 class="portfolio-item-title">Calculator - Vanilla Javascript</h3>
+                    <div class="inside-btn">
+                        <button class="btn view-project-btn" type="button">View Project</button>
+                    </div>
+                    <div class="portfolio-item-details">
+                        <div class="description">
+                            <p>Have you ever forgot the calculation while counting, adding, multiplying
+                                number? I am sure you must've.
+                                So in order to solve this problem , we have come up with our own calculator
+                                which can solve your sums quite easily.
+                                Using it is like a piece of cake for anyone and i am sure you all will love
+                                this website.
+
+                                To view the source code and more just click below and get the work done. Its
+                                thats simple.
+                            </p>
+                        </div>
+                        <div class="general-info">
+                            <ul>
+                                <li>Created - <span>12 May 2021</span>
+                                </li>
+                                <li>Technology Used - <span>HTML, CSS, Javascript</span> </li>
+                                <li>Role - <span>Frontend</span></li>
+                                <li>View Online - <span><a href="#" target="_blank">www.domain.com</a></span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-section active " id="contact">
+        <div class="container6">
+            <div class="row">
+                <div class="section-title">
+                    <h2 data-aos="fade-up" data-aos-delay="50">Contact Me</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="contact-form">
+                    <form action="">
+                        <div class="row" data-aos="fade-right" data-aos-delay="50" data-aos-offset="100">
+                            <div class="input-group">
+                                <input type="text" placeholder="Name" class="input-control" required>
+                            </div>
+                            <div class="input-group">
+                                <input type="text" placeholder="Email" class="input-control" required>
+                            </div>
+                            <div class="input-group">
+                                <input type="text" placeholder="Subject" class="input-control" required>
+                            </div>
+                            <div class="input-group">
+                                <textarea class="input-control" required rows="10">Message</textarea>
+                            </div>
+                            <div class="submit-button">
+                                <div class="submit-btn">
+                                    <button class="btn" type="submit">Send Message</button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="contact-info">
+                    <div class="contact-info-item" data-aos="fade-down" data-aos-delay="50">
+                        <h3>Email</h3>
+                        <p>jain.paarth2608@gmail.com</p>
+                    </div>
+                    <div class="contact-info-item" data-aos="fade-left" data-aos-delay="50" data-aos-offset="100">
+                        <h3>Phone</h3>
+                        <p>+91 9997344940</p>
+                    </div>
+                    <div class="contact-info-item" data-aos="fade-down" data-aos-delay="50" data-aos-offset="50">
+                        <h3>Follow Me</h3>
+                        <div class="social-links">
+                            <a href="https://www.facebook.com/paarth.jain.906/" target="_blank"> <i
+                                    class="fab fa-facebook-f"></i></a>
+                            <a href="https://twitter.com/PAARTHJAIN7" target="_blank"> <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="https://www.instagram.com/_paarth7_/" target="_blank"> <i
+                                    class="fab fa-instagram"></i> </a>
+                            <a href="" target="_blank"> <i class="fab fa-linkedin-in"></i> </a>
+                            <a href="https://www.instagram.com/_paarth7_/" target="_blank"> <i
+                                    class="fab fa-instagram"></i> </a>
+                            <a href="" target="_blank"> <i class="fab fa-github"></i> </a>
+                            <a href=""> <i class="fas fa-globe-asia"></i> </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- portfolio item details popup start -->
+    <div class="portfolio-popup">
+        <div class="pp-inner">
+            <div class="pp-content">
+
+                <div class="pp-header">
+                    <button class="btn pp-close" type="button"><i class="fas fa-times"></i></button>
+                    <div class="pp-thumbnail">
+                        <img src="project1.png" alt="">
+                    </div>
+                    <h2>App Landing Page</h2>
+                </div>
+
+                <div class="pp-body">
+                    <div class="description">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae quam incidunt obcaecati
+                            corporis pariatur quibusdam dolores quia eligendi ratione id. Accusamus laudantium
+                            exercitationem atque ab aliquam architecto libero illo, reprehenderit neque non debitis ut,
+                            est, recusandae assumenda. Tempora, provident aut.</p>
+                    </div>
+                    <div class="general-info">
+                        <ul>
+                            <li>Created - <span>4 Dec 2020</span>
+                            </li>
+                            <li>Technology Used - <span>HTML, CSS</span> </li>
+                            <li>Role - <span>Frontend</span></li>
+                            <li>View Online - <span><a href="#" target="_blank">www.domain.com</a></span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- portfolio item details popup end -->
+    <!-- JS files -->
+    <script src="typed.min.js"></script>
+    <script>
+        var typed = new Typed('.type', {
+            strings: ['Coder.', 'Web Developer.', 'Team Player.', 'Web Designer.'],
+            typeSpeed: 60,
+            backSpeed: 60,
+            loop: true
+        });
+    </script>
+    <!-- Main file -->
+    <script src="main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 300,
+            duration: 1000,
+        });
+    </script>
+    <!-- Particles -->
+    <script src="particles.js-master/particles.js"></script>
+    <script src="app.js"></script>
+
+</body>
+</html>
