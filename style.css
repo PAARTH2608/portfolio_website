@@ -901,7 +901,7 @@ textarea:focus, input:focus{
         font-size: 14px; 
     }
     .inside{
-        bottom:30px;
+        bottom:10px;
     }
 }
 .close{
