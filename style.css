@@ -900,6 +900,9 @@ textarea:focus, input:focus{
         margin:10px;
         font-size: 14px; 
     }
+    .inside{
+        bottom:30px;
+    }
 }
 .close{
     display: none;
