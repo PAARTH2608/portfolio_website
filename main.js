@@ -1,3 +1,6 @@
+const rem = document.getElementById("removing");
+const load = document.getElementById("loader")
+
 const tabsContainer = document.querySelector(".about-tabs"),
 aboutSection = document.querySelector('.section');
 tabsContainer.addEventListener("click", (e) => {
