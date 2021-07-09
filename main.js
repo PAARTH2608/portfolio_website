@@ -1,5 +1,13 @@
 const rem = document.getElementById("removing");
-const load = document.getElementById("loader")
+const load = document.getElementById("loader");
+rem.style.display="none";
+const loading = () => {
+    setTimeout(() => {
+        rem.style.display="block";
+        load.style.display="none";
+    }, 7000)
+}
+loading();
 
 const tabsContainer = document.querySelector(".about-tabs"),
 aboutSection = document.querySelector('.section');
